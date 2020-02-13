@@ -1,0 +1,50 @@
+header {
+	background-image: url('../../images/losangeles.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	display: grid;
+	grid-template-rows: 1fr 50% 1fr;
+	grid-template-columns: 1fr 95% 1fr;
+	height: 52em;
+}
+
+.name {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 150px;
+	text-align: center;
+	margin: 0;
+}
+
+header h3 {
+	margin: 25px 0px;
+}
+
+header h1, header h3 {
+	user-select: none;
+	-webkit-touch-callout: none;
+}
+
+@media (max-width: 700px) {
+	header {
+		height: 85vh;
+		width: 100vw;
+	}
+
+	header h1 {
+		font-size: 70px;
+	}
+	
+	header h3 {
+		font-size: 15px;
+	}
+}

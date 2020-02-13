@@ -1,0 +1,24 @@
+footer {
+	display: grid;
+	grid-template-columns: 1fr 800px 1fr;
+	height: 16em;
+}
+
+.contacts {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	font-size: 50px;
+	grid-column-start: 2;
+	justify-content: space-evenly;
+}
+
+.contacts i:hover {
+	color: #e44d4d;
+}
+
+@media only screen and (max-width: 900px) {
+	footer {
+		grid-template-columns: 1fr 95% 1fr;
+	}
+}

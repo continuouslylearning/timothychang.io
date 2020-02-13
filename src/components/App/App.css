@@ -1,0 +1,46 @@
+@import url('https://use.typekit.net/fvt8zfo.css');
+
+* {
+	box-sizing: border-box;
+}
+
+.root {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	background: white;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	min-width: 320px;
+	padding: 0;
+	scroll-behavior: smooth;
+	width: 100%;
+}
+
+h2 { 
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	user-select: none;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+hr {
+	border: 0;
+	background-color: #d3d3d3;
+	display: block;
+	height: 1px;
+	width: 40%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
